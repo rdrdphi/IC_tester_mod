@@ -1,15 +1,17 @@
 # IC Tester
 
-Small update: 
-1) replace "pulling outputs to ground" to avoid possible overloading the output pin of DUT replaced by pull down resistors
+Small update for the tester Nick Gammon wrote: 
+1) replace "pulling outputs to ground" in code to avoid possible overloading the output pin of DUT, by placing  by pull down resistors to D12
 2) Update schematic and code for arduino nano, and including pull down resisters via D12
 3) Ínclude option to test high Z
 4) corrected 4503 test and include Disable (High Z function) , included 7406 open collector test.
-5) rewired to "easy connection to solder board"
+5) rewired to "easy" connection to solder board had around
 
+wiring;
 // DuT pin:                   1  2  3  4  5  6  7  8   9  10  11  12  13  14  15  16
 //                           -------------------------------------------------------
 const int chipPins16 [16] = { 9, 8, 7, 6, 5, 4, 3, 2, 10, 11, A5, A4, A3, A2, A1, A0};
+
 additional D12 connected via sixteen 230kohm resistors to each ZIF pin
 ZIF pin - Arduino pin
 1         D12  Via 230 kohm resistor
