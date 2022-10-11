@@ -62,3 +62,7 @@ if its basic logic functions and output drivers are working.
 Only connect pin 16 on the ZIF chip to +5V if your target chip expects power (Vcc) on that pin.
 
 Chips are inserted at the **top** of the ZIF holder. That is, pin 1 is always in the same place.
+
+
+![Screenshot_20221011-193156_Gallery](https://user-images.githubusercontent.com/13838239/195161154-13c7af3a-4692-4290-9b5a-1ecf650860ba.jpg)
+![Screenshot_20221011-193221_Gallery](https://user-images.githubusercontent.com/13838239/195161167-d3034f23-1b33-4ca0-a698-40c3ee57e8e5.jpg)
