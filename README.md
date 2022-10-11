@@ -47,6 +47,9 @@ To use the code unmodified, wire up as follows:
 8        |  13        | via jumper/switch to gnd
 16       |  +5V       | via jumper/switch to +5V (optional - see text of article)
 
+![20221011_194530](https://user-images.githubusercontent.com/13838239/195163272-0709f54b-d790-47f4-8b7e-40c316c693f0.jpg)
+
+
 Compile and upload sketch (tested on an Arduino Uno). Open the Serial Monitor, set baud rate to 115200, line ending: newline.
 
 Follow prompts in the serial monitor. Specifically:
